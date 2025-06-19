@@ -5,6 +5,6 @@ import App from './App';
 
 test('renders the word "Edit"', () => {
   render(<App />);
-  const editElement = screen.getByText(/edit/i);
+  const editElement = screen.getByText(/save/i);
   expect(editElement).toBeInTheDocument();
 });
